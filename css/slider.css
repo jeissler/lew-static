@@ -1,0 +1,29 @@
+/* 
+
+Blitz Premium Template - CSS File
+
+USE THIS STYLE SHEET FOR HOMPAGE SLIDESHOW
+
+*/
+#slidecontainer{background-image:url(../images/bg_slide.png); background-repeat:no-repeat; width:952px; height:286px; position:relative}
+#slide{padding:5px 11px 11px 11px;}
+#slideshow{height:270px; background:none; overflow:hidden; background-color:#eeeeee}
+#slideshow h1{padding:10px 0px 0px 0px;}
+.slideimg{ float:left; width:590px; margin-right:20px;}
+.slidetext{ float:left; width:300px;}
+.cycle{padding-right:20px;}
+#slideshow_navigation a{
+background: url(../images/button.png) no-repeat scroll 50% 50%;
+display:block;
+float:left;
+font-size:0px;
+width:12px;
+height:10px;
+margin:1px;
+outline-style:none;
+outline-width:medium;
+padding:0px;
+text-indent:-9999px;
+}
+#slideshow_navigation{position:absolute; right:15px; top:255px; z-index:800; cursor:pointer}
+#slideshow_navigation .activeSlide {background: url(../images/button_selected.png) no-repeat scroll 0% 50%;}
